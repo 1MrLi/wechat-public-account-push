@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ob0Yj6cwjhVRAlXT411aPzNqGfhA",
+      id: "ob0Yj6fqDCCXToeaVdCpl5RU-5oM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "mqSDlBpaxSr8HWZdk9XWCaw4vl2pqdU6Y6uNPbVJY6Y",
+      useTemplateId: "7utK3PDCG_lUbr81WZJzYnGLH077mbt6QNH3pL8hiV4",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -188,7 +188,7 @@ export const config = {
     {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: false},
     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
