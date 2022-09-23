@@ -91,16 +91,26 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "自己",
+      id: "ob0Yj6fqDCCXToeaVdCpl5RU-5oM",
+      useTemplateId: "W68UXUkQHTLZUoUtlTVnfTYPdoBGVD1vwpQMJXT-Hao",
+      province: "陕西",
+      city: "咸阳",
       horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      horoscopeDateType: '今日',
+      openUrl: "https://weibo.com/p/106003_-_type:25_-_filter_type:mineband",
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "宝贝", "year": "2002", "date": "07-19"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-05-12"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
+        // 退伍日
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
     },
     {
       name: "老婆2",
